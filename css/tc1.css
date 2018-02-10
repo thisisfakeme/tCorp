@@ -1,0 +1,33 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  width: 1024px;
+  margin: 1em auto;
+  
+}
+#id01{
+  background-color: #2ECC40
+  
+
+}
+#id02{
+  background-color: #FF851B
+}
+#id03{
+  background-color: #39CCCC
+}
+#id05{
+  background-color: #85144b
+}
+.img-responsive{
+height: 100%;
+  width: 100%;
+}
+.col{
+    display: table-cell;
+}
+#con_main{
+  background-color: #DF2568
+}
