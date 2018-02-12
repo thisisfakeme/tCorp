@@ -1,33 +1,113 @@
 html,body {
   margin: 0;
   padding: 0;
+    height: 100%;
 }
 .slider {
   width: 1024px;
   margin: 1em auto;
   
 }
-#id01{
-  background-color: #2ECC40
-  
+.navbar{
+    background-color:#090c50;
+    opacity: ;
+}
+.dropdown-menu{
+    background-color: ;
+}
+#con1{
+    padding: 0px;
+}
+#con2{padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
+.holder { 
+  background-color:#ccc;
+  width:100%;
+  height:170px;
+  overflow:hidden;
+  padding:10px;
+  font-family:Helvetica;
 }
-#id02{
-  background-color: #FF851B
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 20px;
+  width:100%;
+  height:100%;
+  overflow: hidden;
 }
-#id03{
-  background-color: #39CCCC
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
 }
-#id05{
-  background-color: #85144b
+.holder ul li {
+  padding:10px 0px;
 }
-.img-responsive{
-height: 100%;
-  width: 100%;
+.holder ul li a {
+  color:darkred;
+  text-decoration:none;
 }
-.col{
-    display: table-cell;
+
+.footer {
+    padding: 50px 0 20px 0;
+    align-content: flex-end;
+    background-color: #090c30;
 }
-#con_main{
-  background-color: #DF2568
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
 }
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:25px;
+	padding:5px;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fa{
+	margin-right:25px;
+}
+
+.footer .payment{
+	margin:0px;
+	padding:0px;
+    text-align: right;
+	list-style-type:none
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+.wrapper {
+    min-height: 100%;
+    height: 100%;
+    margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 250px; /* .push must be the same height as .footer */
+}
+
+
